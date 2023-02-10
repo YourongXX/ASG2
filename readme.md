@@ -1,5 +1,5 @@
-# Work-life balance
-Work-life balance is the **NO NONSENSE** informative space that strives to help individuals achieve their fitness goals.
+# FitLife
+Fitlife is the **NO NONSENSE** informative space that strives to help individuals achieve their fitness goals.
 
 [This is an image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhealth.clevelandclinic.org%2Fhow-often-you-should-work-out%2F&psig=AOvVaw3LXeyQ59p8YpDnr9YNR40w&ust=1675755921101000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJiF27izgP0CFQAAAAAdAAAAABAD)
 ###### design rationale :speech_balloon:
@@ -51,16 +51,16 @@ With our rationale in mind. The website would contain a short quiz in which user
 - more info such as dietry suggestions
 
 ### technologies used
-[GitHub Pages](https://code.visualstudio.com/).
-[GitHub Pages](https://vshred.com/sp/survey/results-male-fl-bt-f8?cv=&condition=maleFatLoss&segment=4&gender=male&age=18&activity=very&macro_goal=fat-loss&units=metric&inches=48&centimeters=171&weight=0&kilograms=94/).
+[Vs code](https://code.visualstudio.com/).
+[Vshred](https://vshred.com/sp/survey/results-male-fl-bt-f8?cv=&condition=maleFatLoss&segment=4&gender=male&age=18&activity=very&macro_goal=fat-loss&units=metric&inches=48&centimeters=171&weight=0&kilograms=94/).
 
 ### reference
 [image used](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhealth.clevelandclinic.org%2Fhow-often-you-should-work-out%2F&psig=AOvVaw3LXeyQ59p8YpDnr9YNR40w&ust=1675755921101000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJiF27izgP0CFQAAAAAdAAAAABAD)
 
-[GitHub Pages](https://vshred.com/sp/survey/results-male-fl-bt-f8?cv=&condition=maleFatLoss&segment=4&gender=male&age=18&activity=very&macro_goal=fat-loss&units=metric&inches=48&centimeters=171&weight=0&kilograms=94/).
+[Vshred](https://vshred.com/sp/survey/results-male-fl-bt-f8?cv=&condition=maleFatLoss&segment=4&gender=male&age=18&activity=very&macro_goal=fat-loss&units=metric&inches=48&centimeters=171&weight=0&kilograms=94/).
 
 
-[GitHub Pages](https://www.w3schools.com/).
+[w3 schools](https://www.w3schools.com/).
 
 
 
