@@ -1,3 +1,18 @@
 //home page
 //nav bar
-import navbar from "./homepage.js";
+let menu = document.querySelector('.menu-btn');
+let navbar = document.querySelector('.header.navbar');
+
+menu.onclick = ()=>{
+    navbar.toggle("active");
+}
+
+    
+    
+    
+    
+
+    
+
+   
+    
