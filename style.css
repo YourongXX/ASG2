@@ -97,6 +97,10 @@ html{
     section{
         padding: 3rem 2rem;
     }
+
+    .home.content h3{
+        font-size: 4rem;
+    }
     
 }
 
@@ -108,7 +112,7 @@ html{
 
 /*.navbar.active{
     clip-path: polygon(0 0,100% 0,100% 100%, 0 100%);
-    visibility: hidden;
+   
    
    
     
@@ -119,7 +123,10 @@ html{
 
     .registry{
         display:none;
-        }       
+        } 
+    #signup{
+        display: inline-block ;
+    }      
         
     .menu-btn{
             
@@ -136,6 +143,10 @@ html{
         
     }
 
+    .navbar.active{
+        clip-path: polygon(0 0,100% 0,100% 100%, 0 100%);
+    }    
+
     .navbar a{
         display: block;
         margin: 0;
@@ -147,7 +158,11 @@ html{
 @media(max-width:450px){
     html{
         font-size: 50%;
-    }                  
+    }      
+    
+    .marketing h1{
+        font-size: 3rem;
+    }
 }
 
 /*home section*/
@@ -170,6 +185,8 @@ section{
     width: 100%;
     animation: floating 4s linear infinite;
     margin-top: 5rem;
+    width: 90%;
+    
 }
 
 @keyframes floating{
@@ -192,11 +209,85 @@ section{
 }
 
 .content p{
-    font-size: 15px;
+    font-size: 2rem;
     padding: 1rem 0;
-    list-style: 2;
+    list-style: 1;
+
 }
 
+/*about section*/
+.about{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem   ;
+    background: white;
+}
+
+
+.image2{
+    flex: 1 1 42rem;
+    width: 100%;
+    animation: floating 4s linear infinite;
+    margin-top: 5rem;
+}
+
+@keyframes floating{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+
+    50%{
+        transform: translateY(-4rem);
+
+    }
+    }
+
+
+.image2 img{
+    width: 95%;
+}
+
+.about.content{
+
+    flex: 1 1 42rem;
     
+}
+ 
+.content h3{
+    font-size: 4rem;
+    line-height: 1.5;
+
+}
+
+.content p{
+    font-size: 1.7rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+/*marketing section*/
+.marketing h1{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    padding-top: 0.5rem;
+    
+}
+
+.marketing.container{
+
+}
+
+@mixin grid($val){
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax($val,1fr));
+    gap :1.5rem
+}
+
+
+
 
 

@@ -1,12 +1,12 @@
 //home page
 //nav bar
 let menu = document.querySelector('.menu-btn');
-let navbar = document.querySelector('.header.navbar');
+let navbar = document.querySelector('.navbar');
 
-menu.onclick = ()=>{
-    navbar.toggle("active");
+menu.onclick = () =>
+{   
+    navbar.classList.toggle("active");
 }
-
     
     
     
