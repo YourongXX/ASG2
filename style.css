@@ -89,6 +89,8 @@ html{
     color: black;
 }
 
+/*media section*/
+
 @media(max-width:1200px){
     .header{
         padding:2rem;
@@ -110,14 +112,10 @@ html{
     }
 }
 
-/*.navbar.active{
+.navbar.active{
     clip-path: polygon(0 0,100% 0,100% 100%, 0 100%);
-   
-   
-   
-    
 
-}*/
+}
 
 @media(max-width:768px){
 
@@ -138,7 +136,9 @@ html{
         position:absolute;
         top: 99%; left: 0; right: 0;
         border-top:0.2rem solid black; 
-        background: white;
+        background: rgb(34, 34, 34);
+        
+        
         clip-path: polygon(0 0,100% 0,100% 0, 0 0);
         
     }
@@ -151,6 +151,21 @@ html{
         display: block;
         margin: 0;
         padding:1.5rem 2rem;
+        color: white;
+    }
+
+    .container{
+        padding:20px;
+        
+    }
+
+    .box p{
+        font-size: 10px;
+    }
+
+    .program-images{
+        width: 90%;
+        align-items: center;
     }
 
 }
@@ -176,7 +191,7 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
-    background:lightsteelblue;
+    background:rgb(214, 236, 255);
 
 }
 
@@ -202,6 +217,7 @@ section{
 
 .content{
     flex:1 1 42rem;
+    
 }
 
 .content h3{
@@ -223,7 +239,7 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem   ;
-    background: white;
+    background: rgb(255, 213, 213);
 }
 
 
@@ -269,22 +285,119 @@ section{
 }
 
 /*marketing section*/
-.marketing h1{
+.marketing{
+    background:white;
+}
+.heading{
     text-align: center;
     margin-bottom: 3rem;
     font-size: 4rem;
+    font-weight: lighter;
     padding-top: 0.5rem;
+}
+
+.container{
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 50px;
+}
+
+.box{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 5px; ;
+    background: white;
+    text-align: center;
+    padding:30px 20px ;
+
+}
+
+.box img{
+    height: 80px;
+}
+
+.box h3{
+    color: black;
+    font-size: 22px;
+    padding:10px 0;
+
+}
+
+.box p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transform: scale(1.03);
+}
+
+/*programs section*/
+
+.program-images{
+    width: 1 1 42rem;
+    animation: floating 4s linear infinite;
     
 }
 
-.marketing.container{
+.program-images img{
+    width: 100%;
 
 }
 
-@mixin grid($val){
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax($val,1fr));
-    gap :1.5rem
+@keyframes floating{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+
+    50%{
+        transform: translateY(-4rem);
+
+    }
+    }
+
+.content{
+    flex: 1 1 42rem;
+
+}
+
+.content h3{
+    font-size: 4rem;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:1rem 3rem;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    border:0.2rem solid black;
+    visibility: visible;
+    border-radius: 0.5rem;
+}
+
+.btn:hover{
+    background: none;
+    color: black;
+
+}
+
+#odd{
+    flex-direction: row;
+}
+
+.programs .about{
+    background: white;
+}
+
+.heading span{
+    font-size: 2.5rem;
 }
 
 
