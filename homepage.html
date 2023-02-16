@@ -11,6 +11,50 @@
     </head>
 
     <body>
+        <!-- modal section -->
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="profile"> FitLife </div>
+                <form method="post" action="homepage.html">
+                    <div class="txt_field">
+                        <label>Email Address:</label>
+                        <input type="text" required id="email_add" placeholder="Enter Email Address" onchange="validateEmail()">
+                    </div>
+                    <br>
+
+                    <div class="txt_field">
+                        <label>Password:</label>
+                        <input type="password" required id="password" placeholder="Enter Password" onchange="validatePassword()">
+                    </div>
+                    <br>
+
+                    <div class="txt_field">
+                        <label>Repeat Password:</label>
+                        <input type="password" required id= "password1" placeholder ="Repeat Password" onchange="validateRepeatPassword()">
+                    </div>
+                    <br>
+
+                    <div class="checkbox">
+                        <input type="checkbox" required>
+                        Remember Me
+                    </div>
+                    <br>
+
+                    <div class="t-privacy">
+                    By creating an account you agree to our <a href="#" style="color: skyblue">
+                    Terms &amp; Privacy</a>
+                    </div>
+
+                    <div class="button">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up </button>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </div>
+        </section>
+        
         <!---header section-->
         <header class="header ">
             <a href="#" class="profile">FitLife </a>
@@ -28,10 +72,7 @@
             <a href="#" class="menu-btn"><img src="menu.png"></a>
             
             <a href="#" class="registry">Log in</a> 
-           
-        
         </header>
-
         <!----home section---->
         <section class="home">
             <div class = "image1"><img src="muscle.png"></div>
@@ -204,6 +245,7 @@
 
             </div>
         </section>
+        <script src= validation.js></script>
         <script src="script.js"></script>
         
        
