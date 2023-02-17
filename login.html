@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 
     <head>
@@ -11,25 +11,66 @@
     </head>
 
     <body>
+        <!-- modal section -->
+        <div class="bg-modal">
+            <div class="modal-content">
+                <div class="close">X</div>
+                <div class="profile"> FitLife </div>
+                <form method="post" action="homepage.html">
+                    <div class="txt_field">
+                        <label>Email Address:</label>
+                        <input type="text" required id="email_add" placeholder="Enter Email Address" onchange="validateEmail()">
+                    </div>
+                    <br>
+
+                    <div class="txt_field">
+                        <label>Password:</label>
+                        <input type="password" required id="password" placeholder="Enter Password" onchange="validatePassword()">
+                    </div>
+                    <br>
+                    <div class="checkbox">
+                        <input type="checkbox" required>
+                        Remember Me
+                    </div>
+                    <br>
+                    <div class="signupclick">
+                        <label><a href="Signup.html">New User? Click here to sign up</a></label>
+                    </div>
+                    <br>
+                    <div class="button">
+                        <button type="button" class="cancelbtn">
+                            <a href="homepage.html">Cancel</a>
+                        </button>
+                        <button type="submit" class="signupbtn">Log In 
+                            <a href="homepage.html"></a>
+                        </button>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </div>
+        </section>
+        
         <!---header section-->
-        <header class="header">
+        <header class="header ">
             <a href="#" class="profile">FitLife </a>
 
             <nav class="navbar active">
-                <a href="#home">Home</a>
-                <a href="#marketing">Marketing</a>
-                <a href="#about">About</a>
-                <a href="#programs">Programs</a>
-                <a href="#reviews">Reviews</a>
-                <a href="#contact">Contact</a>
+                <a href="#">Home</a>
+                <a href="#">Marketing</a>
+                <a href="#">About</a>
+                <a href="#">Programs</a>
+                <a href="#">Reviews</a>
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
             </nav>
 
-            <a href="#id" class="menu-btn"><img src="menu.png"></a>
+            <a href="#" class="menu-btn"><img src="menu.png"></a>
             
-            <a href="login.html" class="registry">Log in</a> 
+            <a href="#" class="registry">Log in</a> 
         </header>
         <!----home section---->
-        <section class="home" id="home">
+        <section class="home">
             <div class = "image1"><img src="muscle.png"></div>
 
             <div class="content">
@@ -44,14 +85,14 @@
         </section>
 
         <!--marketing section-->
-        <section class="marketing" id="marketing">
+        <section class="marketing">
 
             <div class="heading">
                 <h1>Why choose us?</h1>
             </div>
            
             <!--box grid -->
-            <div class="container" id="container">
+            <div class="container">
                 <div class="box-container">
 
                     <div class="box">
@@ -115,7 +156,7 @@
         </section>
 
         <!--about section-->
-        <section class="about" id="about">
+        <section class="about">
            <div class="image2"><img src="workout.png" ></div>
 
            <div class="content">
@@ -133,7 +174,7 @@
         </section>
 
         <!--programs section-->
-        <section class="programs" id="programs">
+        <section class="programs">
             <div class="heading">
                 <span>our programs</span>
                 <h1>Anything sounds familiar?</h1>
@@ -142,7 +183,7 @@
             <div class="about" id="odd">
                 <img src="warming.png" class="program-images" >
                 <div class="content">
-                    <h3 class="line-down">Skinny</h3>
+                    <h3 class="line-down">Skinny-fat</h3>
                     <p>You look skinny in clothes but you in fact have
                         more than a pinch full amount of fat that you are 
                         able to grab.
@@ -166,7 +207,7 @@
             <div class="about" id="odd">
                 <img src="weights.png" class="program-images" >
                 <div class="content">
-                    <h3 class="line-down">Overweight</h3>
+                    <h3 class="line-down">Skinny-fat</h3>
                     <p>You look skinny in clothes but you in fact have
                         more than a pinch full amount of fat that you are 
                         able to grab.
@@ -178,7 +219,7 @@
             <div class="about">
                 <img src="weightlifting.png" class="program-images" >
                 <div class="content">
-                    <h3 class="line-down">Fit</h3>
+                    <h3 class="line-down">Skinny-fat</h3>
                     <p>You look skinny in clothes but you in fact have
                         more than a pinch full amount of fat that you are 
                         able to grab.
@@ -190,7 +231,7 @@
         </section>
 
         <!--reviews section-->
-        <section class="review" id="Reviews">
+        <section class="review">
             <div class="heading">
                 <span>Client's reviews</span>
                 <h1>user's experience</h1>
@@ -200,6 +241,7 @@
 
             </div>
         </section>
+        <script src= validation.js></script>
         <script src="script.js"></script>
         
        
