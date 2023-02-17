@@ -468,3 +468,53 @@ section{
     font-size: 20px;
 }
 
+/* Skinny Body Type */
+.skinny-content{
+    display: grid;
+    
+}
+.skinny-title{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.skinny-header{
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.skinny-para{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.David{
+    font-weight: bold;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+.youtubevid{
+    background-size: 20px;
+}
+
+.skinny-fat{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.skinny{
+    display: flex;
+}
+.fat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
